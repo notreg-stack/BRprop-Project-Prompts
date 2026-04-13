@@ -1,0 +1,129 @@
+{
+  "site": {
+    "name": "BRprop",
+    "tagline": "面向中国买家的巴西农村地产与农业研究入口",
+    "disclaimer": "内容用于交易教育与前期筛选，不替代法律、税务或 agronômico 专业意见。"
+  },
+  "nav": {
+    "home": "首页",
+    "properties": "土地项目",
+    "knowledge": "投资指南",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "wechat": "添加微信"
+  },
+  "hero": {
+    "eyebrow": "WeChat-first Brazil rural property desk",
+    "title": "为中国买家提供巴西农地初步咨询入口",
+    "description": "这页只做一件事：用简洁、正式、可信的方式，把合适的客户带去微信继续沟通。",
+    "primary": "添加微信咨询",
+    "secondary": "阅读信息页"
+  },
+  "home": {
+    "featuredProperties": "重点内容",
+    "knowledgeTitle": "中国买家知识中心",
+    "knowledgeSubtitle": "先理解规则，再谈报价、结构与交易节奏。",
+    "processTitle": "跨境项目通常如何推进",
+    "process1Title": "初筛",
+    "process1Body": "先判断买方结构、地区、目标作物和时间窗口。",
+    "process2Title": "尽调",
+    "process2Body": "同步审查 matrícula、地籍、环境、物流和经营可行性。",
+    "process3Title": "结构化",
+    "process3Body": "根据合规要求讨论持有方式、授权路径和成交流程。",
+    "contactTitle": "先建立对话，再决定是否进入尽调",
+    "contactBody": "我们可以先用中文或葡语整理您的目标，再决定是否推进到法律与技术审查。",
+    "point1": "先说明我们能帮助判断什么，再进入微信沟通。",
+    "point2": "不堆叠全部内容，不让首屏变成信息仓库。",
+    "point3": "公司信息、邮箱、免责声明与二维码应清楚可见。",
+    "wechatTitle": "微信是主要联系入口",
+    "wechatBody": "放真实二维码、企业邮箱和简洁说明，不做复杂分流。",
+    "wechatTrust1": "WeChat ID: <strong>brprop_cn</strong>",
+    "wechatTrust2": "Email: <strong>contact@brprop.com</strong>",
+    "wechatTrust3": "CNPJ / CRECI / 地址等可信信息稍后替换为真实数据",
+    "card1Title": "这页应该说明什么？",
+    "card1Body": "你能帮助判断预算、面积、作物方向和跨境下一步。",
+    "card2Title": "这页不应该做什么？",
+    "card2Body": "不要把全部法律与农业内容都堆在这里。",
+    "card3Title": "应显示的基础信任信息",
+    "card3Body": "企业邮箱、微信、办公地址、CNPJ、隐私政策、使用条款与免责声明。",
+    "nextStepTitle": "进入微信前，通常会先讨论什么",
+    "nextStepBody": "保持首屏简洁，但要让高价值客户知道你能处理哪些问题。",
+    "topic1Title": "外国人取得路径",
+    "topic1Body": "先判断是否需要先看涉外购地规则与结构限制。",
+    "topic2Title": "文件与登记",
+    "topic2Body": "很多沟通会先从 matrícula、CCIR、CAR 和登记逻辑开始。",
+    "topic3Title": "作物与区域",
+    "topic3Body": "客户通常会同时问大豆、玉米、棉花和主要产区差异。",
+    "finalTitle": "如果您准备继续沟通",
+    "finalBody": "建议直接添加微信，并先发送目标州、面积、作物方向和时间窗口。更完整的解释内容请看第二页。",
+    "finalPrimary": "回到微信入口",
+    "finalSecondary": "打开信息页"
+  },
+  "properties": {
+    "title": "土地项目与区域筛选",
+    "description": "用于前期沟通的示例资产卡片，帮助您快速理解区域、作物与尽调重点。",
+    "filterAll": "全部作物",
+    "filterSoybean": "大豆",
+    "filterCorn": "玉米",
+    "filterCotton": "棉花",
+    "filterMixed": "多作物",
+    "viewDetails": "查看详情"
+  },
+  "knowledge": {
+    "eyebrow": "Information page",
+    "title": "巴西农村土地与农业信息页",
+    "description": "这页只放信息内容，用来解释取得路径、文件、登记、公证、代币化风险、作物、区域和主季/二季。",
+    "cta": "阅读全文",
+    "metaTitle": "基础规范",
+    "metaBody": "每篇内容都建议显示：最后更新日期、资料来源、适用范围、免责声明。",
+    "ctaTitle": "如果您想继续讨论具体机会",
+    "ctaBody": "信息页负责解释框架；下一步沟通仍然建议回到 WeChat 入口。",
+    "ctaButton": "返回微信入口"
+  },
+  "about": {
+    "title": "关于 BRprop",
+    "description": "我们把跨境土地交易理解成法律、农业和物流三条线一起工作的项目，而不是单纯的房源展示。"
+  },
+  "contact": {
+    "title": "联系我们",
+    "description": "如果您有明确区域、面积、作物或投资目标，请先发给我们。",
+    "response": "通常在 24-48 小时内回复。复杂项目会先安排文件预审。"
+  },
+  "form": {
+    "name": "姓名",
+    "email": "邮箱",
+    "phone": "电话 / 微信",
+    "company": "公司",
+    "interest": "关注类型",
+    "area": "目标面积（公顷）",
+    "crop": "重点作物",
+    "message": "留言",
+    "submit": "发送咨询",
+    "interestOptions": {
+      "land_purchase": "土地购买",
+      "investment": "投资合作",
+      "consulting": "咨询服务",
+      "other": "其他"
+    },
+    "cropOptions": {
+      "soybean": "大豆",
+      "corn": "玉米",
+      "cotton": "棉花",
+      "multiple": "多种作物"
+    },
+    "success": "信息已提交，我们会尽快联系您。",
+    "error": "发送失败，请稍后重试。"
+  },
+  "common": {
+    "backToList": "返回列表",
+    "sources": "参考来源",
+    "disclaimer": "重要提示",
+    "wechat": "微信联系",
+    "email": "邮件联系",
+    "readMore": "继续阅读",
+    "featured": "重点内容"
+  },
+  "footer": {
+    "rights": "BRprop. 面向中国买家的巴西农村地产沟通平台。"
+  }
+}

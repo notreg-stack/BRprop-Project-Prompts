@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BRprop 面向中国买家的巴西农村土地、登记、公证、作物与区域信息页。">
+    <title>BRprop | 信息页</title>
+    <link rel="icon" href="/assets/icons/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/styles/variables.css">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/components.css">
+    <link rel="stylesheet" href="/styles/responsive.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="brand" href="/"><span class="brand__mark">禾</span><span>BRprop</span></a>
+        <button class="mobile-nav-toggle" type="button" data-mobile-menu-button aria-expanded="false">Menu</button>
+        <nav class="site-nav" data-mobile-menu>
+          <a href="/" data-i18n="nav.home">首页</a>
+          <a class="is-active" href="/knowledge.html" data-i18n="nav.knowledge">投资指南</a>
+          <a class="header-cta" href="/#wechat-entry" data-i18n="nav.wechat">添加微信</a>
+          <div class="locale-switcher">
+            <button type="button" data-locale-button="zh" class="is-active">中文</button>
+            <button type="button" data-locale-button="pt">PT</button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <div>
+            <div class="eyebrow" data-i18n="knowledge.eyebrow">Information page</div>
+            <h1 data-i18n="knowledge.title">中国投资指南</h1>
+            <p class="lead" data-i18n="knowledge.description">围绕外国人购地、登记、公证、文件、作物与产区的基础阅读材料。</p>
+          </div>
+          <article class="card section-note">
+            <div class="card-body">
+              <h2 data-i18n="knowledge.metaTitle">基础规范</h2>
+              <p data-i18n="knowledge.metaBody">每篇内容都建议显示：最后更新日期、资料来源、适用范围、免责声明。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="article-stream" data-knowledge-stream></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <article class="card section-note">
+            <div class="card-body">
+              <h2 data-i18n="knowledge.ctaTitle">如果您想继续讨论具体机会</h2>
+              <p data-i18n="knowledge.ctaBody">信息页负责解释框架；下一步沟通仍然建议回到 WeChat 入口。</p>
+              <a class="button" href="/#wechat-entry" data-i18n="knowledge.ctaButton">返回微信入口</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <p><strong>BRprop</strong> · <span data-i18n="site.disclaimer">内容用于交易教育与前期筛选，不替代法律、税务或 agronômico 专业意见。</span></p>
+        <div class="site-footer__links">
+          <a href="/" data-i18n="nav.home">首页</a>
+          <a href="/#wechat-entry" data-i18n="nav.wechat">添加微信</a>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/scripts/knowledge.js"></script>
+  </body>
+</html>

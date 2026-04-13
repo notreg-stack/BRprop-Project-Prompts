@@ -1,0 +1,129 @@
+{
+  "site": {
+    "name": "BRprop",
+    "tagline": "Plataforma de imóveis rurais e pesquisa agrícola do Brasil para público chinês",
+    "disclaimer": "O conteúdo é educativo e não substitui parecer jurídico, tributário ou agronômico."
+  },
+  "nav": {
+    "home": "Início",
+    "properties": "Projetos",
+    "knowledge": "Guia China",
+    "about": "Sobre",
+    "contact": "Contato",
+    "wechat": "Adicionar WeChat"
+  },
+  "hero": {
+    "eyebrow": "Mesa WeChat-first para imóvel rural no Brasil",
+    "title": "Entrada inicial para compradores chineses interessados em terra rural no Brasil",
+    "description": "Esta página faz só uma coisa: levar o cliente certo para continuar a conversa no WeChat com uma mensagem simples, formal e confiável.",
+    "primary": "Adicionar WeChat",
+    "secondary": "Ler página informativa"
+  },
+  "home": {
+    "featuredProperties": "Em destaque",
+    "knowledgeTitle": "Central de leitura para o investidor chinês",
+    "knowledgeSubtitle": "Primeiro compreenda regra, cadeia e região; depois discuta estrutura e preço.",
+    "processTitle": "Como normalmente avançamos",
+    "process1Title": "Triagem",
+    "process1Body": "Alinhamos perfil do comprador, região, cultura e janela de execução.",
+    "process2Title": "Diligência",
+    "process2Body": "Revisamos matrícula, cadastros, ambiental, logística e viabilidade operacional.",
+    "process3Title": "Estruturação",
+    "process3Body": "Definimos a rota regulatória e a forma de seguir para proposta ou estudo detalhado.",
+    "contactTitle": "Comece pela conversa correta",
+    "contactBody": "Podemos organizar a sua demanda em chinês ou português antes de avançar para diligência jurídica e técnica.",
+    "point1": "Primeiro explique o que você ajuda a decidir; depois leve a conversa para o WeChat.",
+    "point2": "Não transforme a primeira tela num repositório de todo o conteúdo jurídico e agrícola.",
+    "point3": "Empresa, email, QR code e disclaimer precisam aparecer com clareza.",
+    "wechatTitle": "WeChat é o principal canal de contato",
+    "wechatBody": "Use QR real, email profissional e uma explicação curta. Nada de excesso de caminhos.",
+    "wechatTrust1": "WeChat ID: <strong>brprop_cn</strong>",
+    "wechatTrust2": "Email: <strong>contact@brprop.com</strong>",
+    "wechatTrust3": "CNPJ / CRECI / endereço poderão ser preenchidos depois com os dados reais",
+    "card1Title": "O que esta página deve explicar?",
+    "card1Body": "Que você ajuda a avaliar orçamento, área, cultura e o próximo passo cross-border.",
+    "card2Title": "O que esta página não deve fazer?",
+    "card2Body": "Não deve concentrar todo o conteúdo jurídico e agrícola aqui.",
+    "card3Title": "Informações mínimas de confiança",
+    "card3Body": "Email profissional, WeChat, endereço, CNPJ, política de privacidade, termos e disclaimer.",
+    "nextStepTitle": "Antes de entrar no WeChat, o que normalmente se discute?",
+    "nextStepBody": "A primeira tela continua simples, mas precisa deixar claro quais temas você consegue orientar.",
+    "topic1Title": "Rota de aquisição por estrangeiros",
+    "topic1Body": "Muitas conversas começam pela restrição regulatória e pela estrutura do comprador.",
+    "topic2Title": "Documentos e registro",
+    "topic2Body": "Matrícula, CCIR, CAR e coerência cadastral costumam aparecer logo no início.",
+    "topic3Title": "Cultura e região",
+    "topic3Body": "Soja, milho, algodão e diferenças regionais entram cedo na conversa.",
+    "finalTitle": "Se fizer sentido seguir",
+    "finalBody": "O melhor próximo passo é adicionar o WeChat e já enviar estado-alvo, área, cultura e janela de investimento. A explicação mais longa está na segunda página.",
+    "finalPrimary": "Voltar para o WeChat",
+    "finalSecondary": "Abrir página informativa"
+  },
+  "properties": {
+    "title": "Projetos e leitura regional",
+    "description": "Cards de referência para discutir região, culturas e foco de diligência com o comprador.",
+    "filterAll": "Todas as culturas",
+    "filterSoybean": "Soja",
+    "filterCorn": "Milho",
+    "filterCotton": "Algodão",
+    "filterMixed": "Múltiplas",
+    "viewDetails": "Ver detalhes"
+  },
+  "knowledge": {
+    "eyebrow": "Página informativa",
+    "title": "Página informativa sobre terra rural e agricultura no Brasil",
+    "description": "Aqui ficam os textos explicativos sobre aquisição por estrangeiros, documentação, registro, notariado, tokenização, culturas, regiões e safra/safrinha.",
+    "cta": "Ler artigo",
+    "metaTitle": "Padrão básico",
+    "metaBody": "Cada texto deve mostrar: data da última atualização, fontes, escopo de aplicação e disclaimer.",
+    "ctaTitle": "Se quiser discutir um caso concreto",
+    "ctaBody": "A página informativa explica o contexto. A próxima conversa prática continua no WeChat.",
+    "ctaButton": "Voltar para o WeChat"
+  },
+  "about": {
+    "title": "Sobre a BRprop",
+    "description": "Tratamos a aquisição rural como um projeto jurídico, agrícola e logístico, não apenas como exibição de oferta."
+  },
+  "contact": {
+    "title": "Fale conosco",
+    "description": "Compartilhe região, faixa de área, cultura-alvo e objetivo de investimento para começarmos com mais precisão.",
+    "response": "O retorno costuma acontecer em 24-48 horas. Casos complexos passam primeiro por pré-análise documental."
+  },
+  "form": {
+    "name": "Nome",
+    "email": "Email",
+    "phone": "Telefone / WeChat",
+    "company": "Empresa",
+    "interest": "Tipo de interesse",
+    "area": "Área alvo (hectares)",
+    "crop": "Cultura principal",
+    "message": "Mensagem",
+    "submit": "Enviar contato",
+    "interestOptions": {
+      "land_purchase": "Compra de terra",
+      "investment": "Parceria de investimento",
+      "consulting": "Consultoria",
+      "other": "Outro"
+    },
+    "cropOptions": {
+      "soybean": "Soja",
+      "corn": "Milho",
+      "cotton": "Algodão",
+      "multiple": "Múltiplas"
+    },
+    "success": "Mensagem enviada com sucesso.",
+    "error": "Não foi possível enviar agora. Tente novamente."
+  },
+  "common": {
+    "backToList": "Voltar",
+    "sources": "Fontes",
+    "disclaimer": "Aviso importante",
+    "wechat": "Contato via WeChat",
+    "email": "Contato por email",
+    "readMore": "Ler mais",
+    "featured": "Em destaque"
+  },
+  "footer": {
+    "rights": "BRprop. Plataforma de comunicação para imóveis rurais e inteligência agrícola."
+  }
+}

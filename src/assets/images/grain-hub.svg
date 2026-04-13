@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#efe7dd"/>
+  <path d="M0 390c129-53 228-63 338-33 83 23 188 30 296 5 128-30 247-20 393 34 64 24 121 34 173 32v247H0z" fill="#5f8c5b"/>
+  <path d="M132 242h132v234H132zM332 190h132v286H332zM532 228h132v248H532zM732 176h132v300H732zM932 214h132v262H932z" fill="#d1b061"/>
+  <path d="M132 242h132l-66-96zM332 190h132l-66-92zM532 228h132l-66-92zM732 176h132l-66-88zM932 214h132l-66-92z" fill="#b98a2a"/>
+  <text x="72" y="88" font-size="42" font-family="sans-serif" fill="#1f1a17">Grain Logistics Hub</text>
+  <text x="72" y="126" font-size="24" font-family="sans-serif" fill="#6e645d">Illustrative placeholder with storage infrastructure</text>
+</svg>

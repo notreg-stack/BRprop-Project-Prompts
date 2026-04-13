@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#d9efe8"/>
+      <stop offset="100%" stop-color="#f6f0e8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#sky)"/>
+  <circle cx="1020" cy="110" r="58" fill="#b98a2a"/>
+  <path d="M0 430c122-42 238-48 349-14 85 26 158 29 244 10 81-18 142-15 222 13 123 43 247 39 385-9v245H0z" fill="#8bb36a"/>
+  <path d="M0 500c128-57 244-70 332-38 111 40 220 39 334-5 92-36 188-29 312 23 82 34 156 44 222 30v165H0z" fill="#4d7d4e"/>
+  <path d="M0 562c103-18 200-11 290 22 118 43 213 46 337 11 103-29 203-23 320 18 82 28 167 37 253 26v36H0z" fill="#285746"/>
+  <text x="70" y="84" font-size="42" font-family="sans-serif" fill="#1f1a17">BRprop</text>
+  <text x="70" y="124" font-size="24" font-family="sans-serif" fill="#6e645d">Brazil rural property overview placeholder</text>
+</svg>

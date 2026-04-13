@@ -1,0 +1,22 @@
+{
+  "name": "brprop-china-ready",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "BRprop website and contact API for Chinese buyers interested in Brazilian rural properties.",
+  "scripts": {
+    "build": "node ./scripts/build.mjs",
+    "check:files": "node ./scripts/validate-project.mjs",
+    "dev:api": "node --watch ./server/index.js",
+    "start": "node ./server/index.js",
+    "verify": "npm run check:files && npm run build"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.1.0",
+    "nodemailer": "^8.0.5",
+    "zod": "^3.24.4"
+  }
+}

@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BRprop 联系页。">
+    <title>BRprop | 联系我们</title>
+    <link rel="icon" href="/assets/icons/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/styles/variables.css">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/components.css">
+    <link rel="stylesheet" href="/styles/responsive.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="brand" href="/"><span class="brand__mark">禾</span><span>BRprop</span></a>
+        <button class="mobile-nav-toggle" type="button" data-mobile-menu-button aria-expanded="false">Menu</button>
+        <nav class="site-nav" data-mobile-menu>
+          <a href="/" data-i18n="nav.home">首页</a>
+          <a href="/properties.html" data-i18n="nav.properties">土地项目</a>
+          <a href="/knowledge.html" data-i18n="nav.knowledge">投资指南</a>
+          <a href="/about.html" data-i18n="nav.about">关于我们</a>
+          <a class="is-active" href="/contact.html" data-i18n="nav.contact">联系我们</a>
+          <div class="locale-switcher">
+            <button type="button" data-locale-button="zh" class="is-active">中文</button>
+            <button type="button" data-locale-button="pt">PT</button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container page-hero__grid">
+          <div>
+            <div class="eyebrow">Contact</div>
+            <h1 data-i18n="contact.title">联系我们</h1>
+            <p class="lead" data-i18n="contact.description">如果您有明确区域、面积、作物或投资目标，请先发给我们。</p>
+            <p data-i18n="contact.response">通常在 24-48 小时内回复。复杂项目会先安排文件预审。</p>
+          </div>
+          <aside class="page-hero-aside">
+            <h2>Preferred channels</h2>
+            <div class="split-panel">
+              <div class="contact-method">
+                <img src="/assets/icons/wechat.svg" alt="WeChat">
+                <div><strong>WeChat</strong><p>brprop_cn</p></div>
+              </div>
+              <div class="contact-method">
+                <img src="/assets/icons/email.svg" alt="Email">
+                <div><strong>Email</strong><p>broker@brprop.example.com</p></div>
+              </div>
+            </div>
+            <img class="hero-qr" src="/assets/qr-codes/wechat-placeholder.svg" alt="WeChat QR placeholder">
+          </aside>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container contact-grid">
+          <article class="card">
+            <div class="card-body">
+              <h2>Lead intake</h2>
+              <form data-contact-form>
+                <div class="form-row">
+                  <div class="field">
+                    <label for="name" data-i18n="form.name">姓名</label>
+                    <input id="name" name="name" required>
+                  </div>
+                  <div class="field">
+                    <label for="email" data-i18n="form.email">邮箱</label>
+                    <input id="email" name="email" type="email" required>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="field">
+                    <label for="phone" data-i18n="form.phone">电话 / 微信</label>
+                    <input id="phone" name="phone">
+                  </div>
+                  <div class="field">
+                    <label for="company" data-i18n="form.company">公司</label>
+                    <input id="company" name="company">
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="field">
+                    <label for="interest" data-i18n="form.interest">关注类型</label>
+                    <select id="interest" name="interest">
+                      <option value="land_purchase" data-i18n="form.interestOptions.land_purchase">土地购买</option>
+                      <option value="investment" data-i18n="form.interestOptions.investment">投资合作</option>
+                      <option value="consulting" data-i18n="form.interestOptions.consulting">咨询服务</option>
+                      <option value="other" data-i18n="form.interestOptions.other">其他</option>
+                    </select>
+                  </div>
+                  <div class="field">
+                    <label for="area" data-i18n="form.area">目标面积（公顷）</label>
+                    <input id="area" name="area" type="number" min="0">
+                  </div>
+                </div>
+                <div class="field">
+                  <label for="crop" data-i18n="form.crop">重点作物</label>
+                  <select id="crop" name="crop">
+                    <option value="soybean" data-i18n="form.cropOptions.soybean">大豆</option>
+                    <option value="corn" data-i18n="form.cropOptions.corn">玉米</option>
+                    <option value="cotton" data-i18n="form.cropOptions.cotton">棉花</option>
+                    <option value="multiple" data-i18n="form.cropOptions.multiple">多种作物</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="message" data-i18n="form.message">留言</label>
+                  <textarea id="message" name="message"></textarea>
+                </div>
+                <button class="button" type="submit" data-i18n="form.submit">发送咨询</button>
+                <div class="status-message" data-form-message></div>
+              </form>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-body">
+              <h2>Before you send</h2>
+              <div class="note-box">
+                <ul class="list-tight">
+                  <li>告诉我们目标州、面积和作物，会显著加快沟通。</li>
+                  <li>如果您最关心法规，请注明需要先看“外国人购地”路径。</li>
+                  <li>如果您最关心经营，请注明是否重视二茬玉米、棉花或仓储。</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <p data-i18n="footer.rights">BRprop. 面向中国买家的巴西农村地产沟通平台。</p>
+      </div>
+    </footer>
+
+    <script type="module" src="/scripts/form.js"></script>
+  </body>
+</html>
