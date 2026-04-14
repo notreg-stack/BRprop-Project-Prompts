@@ -58,7 +58,7 @@ Se você ainda não tiver SMTP pronto, use `EMAIL_PROVIDER=mock` temporariamente
 Com o domínio já apontando para o servidor:
 
 ```bash
-sudo certbot --nginx -d seu-dominio.com -d www.seu-dominio.com
+sudo certbot --nginx -d brprop.shop -d www.brprop.shop
 ```
 
 ## 7. PM2

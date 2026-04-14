@@ -7,10 +7,12 @@
   .cta-grid,
   .about-grid,
   .simple-cards-grid,
+  .faq-list,
   .grid-3,
   .grid-2,
   .cards-grid,
   .detail-grid,
+  .footer-meta-grid,
   .form-row {
     grid-template-columns: 1fr;
   }

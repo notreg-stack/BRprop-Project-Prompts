@@ -138,10 +138,10 @@ sudo systemctl restart nginx
 
 ```bash
 # Gerar certificado:
-sudo certbot --nginx -d brprop.com -d www.brprop.com
+sudo certbot --nginx -d brprop.shop -d www.brprop.shop
 
 # OU para testar primeiro (staging):
-sudo certbot --nginx --staging -d brprop.com -d www.brprop.com
+sudo certbot --nginx --staging -d brprop.shop -d www.brprop.shop
 
 # Responder às perguntas:
 # - Email: seu@email.com
@@ -235,7 +235,7 @@ curl ifconfig.me
 ```
 - Verificar se porta 443 está liberada no Security Group
 - Verificar se DNS está apontando para o servidor
-- sudo certbot --nginx -d brprop.com -d www.brprop.com
+- sudo certbot --nginx -d brprop.shop -d www.brprop.shop
 ```
 
 ### Problema: Nginx não inicia

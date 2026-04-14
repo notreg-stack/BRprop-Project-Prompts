@@ -20,7 +20,12 @@ const allowedOrigin = process.env.ALLOWED_ORIGIN ?? "*";
 
 app.use(
   helmet({
-    crossOriginResourcePolicy: false
+    crossOriginResourcePolicy: false,
+    contentSecurityPolicy: {
+      directives: {
+        "upgrade-insecure-requests": process.env.NODE_ENV === "production" ? [] : null
+      }
+    }
   })
 );
 app.use(cors({ origin: allowedOrigin }));
